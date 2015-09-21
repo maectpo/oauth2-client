@@ -11,9 +11,9 @@ use League\OAuth2\Client\Tool\RequestFactory;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use RandomLib\Factory as RandomFactory;
 use RandomLib\Generator as RandomGenerator;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\StreamInterface;
+use GuzzleHttp\Message\ResponseInterface;
+use GuzzleHttp\Message\RequestInterface;
+use GuzzleHttp\Message\StreamInterface;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\ClientInterface;
 

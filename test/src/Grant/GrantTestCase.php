@@ -3,8 +3,8 @@
 namespace League\OAuth2\Client\Test\Grant;
 
 use GuzzleHttp\ClientInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\StreamInterface;
+use GuzzleHttp\Message\ResponseInterface;
+use GuzzleHttp\Message\StreamInterface;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Test\Provider\Fake as MockProvider;
 use Mockery as m;
